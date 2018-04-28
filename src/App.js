@@ -29,7 +29,7 @@ class App extends Component {
             </header>
           </div>
           <div className="aboutTextContainer">
-            <p>Senior | Informatics | University of Washington</p>
+            <p>Amplifying DJs’ ability to craft creative broadcasts</p>
           </div>
           <div className="arrowContainer">
             <a href="#projects"><i className="fa fa-angle-down fa-3x faa-passing animated"></i></a>
