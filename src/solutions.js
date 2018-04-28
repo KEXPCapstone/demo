@@ -33,7 +33,7 @@ export const solutions = [
   },
   {
    "title": "Shelves",
-    "description": "Shelves are user-created groupings of albums which can keep track of specific collections, planned shows, sets, etc. Shelves are a way to visualize saved music which echoes the shelves of the physical library.",
+    "description": "Shelves are user-created groupings of albums which can keep track of specific collections, planned shows, sets, etc. Shelves are a way to visualize saved music which echoes the shelves of the physical library. As visible collections within the application, the shelves feature provides a snapshot into the creative process of radio hosts, a place to showcase 'featured' album collections, and an organizational tool for planning radio shows.",
     "imageUrl": require('./img/shelfPreviews.png'),
     "skills": "",
     "githubLink": null,
