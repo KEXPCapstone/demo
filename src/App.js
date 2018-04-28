@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import * as ProjectsConst from './projects.js';
+import * as SolutionsConst from './solutions.js';
 import * as SkillsConst from './skills.js';
 
 class App extends Component {
 
   render() {
-    var projectsArray = ProjectsConst.projects.map(function(project, i) {
-      return <Project key={i} title={project.title} description={project.description} imageUrl={project.imageUrl} githubLink={project.githubLink} otherLink={project.otherLink}/>
+    var solutionsArray = SolutionsConst.solutions.map(function(solution, i) {
+      return <Solution key={i} title={solution.title} description={solution.description} imageUrl={solution.imageUrl} githubLink={solution.githubLink} otherLink={solution.otherLink}/>
     });
     var skillsArray = SkillsConst.skills.map(function(skill, i) {
       var isFontAwesome = false;
@@ -35,16 +35,27 @@ class App extends Component {
             <a href="#projects"><i className="fa fa-angle-down fa-3x faa-passing animated"></i></a>
           </div>
         </section>
-        <section id="projects">
-          <h2>Projects</h2>
+        <section id="problem">
+          <h2>Problem</h2>
           <div className="flex-container container">
-            {projectsArray}
+            <p>Over the past one and a half years, KEXP has been in the process of digitizing its vast music library. The primary goal of this process has been to produce a more convenient and robust way for DJs at the station to interact with the music and associated metadata stored in KEXP’s collection. However, there are still areas throughout the programming process which could be improved through the use of the digitized library.</p>
+            <p>Furthermore, the current interface used to navigate KEXP's digital library is severed from the emotional context of the physical collection. For example, the digital library lacks the "notes" which radio hosts once used to communicate with other hosts about a particular album. </p>
+            <p>In addition, we see significant potential in the aggregation and curation of the music library as an information resource. A tool which enables radio hosts to easily plan their sets would harness the digital library in a new and valuable way that could extend beyond internal KEXP use, ultimately promoting KEXP's values of music discovery, community, and cultural enrichment. </p>
+            
+          </div>
+        </section>
+        <section id="solution">
+          <h2>Solution</h2>
+          <div className="flex-container container">
+          {solutionsArray}
           </div>
         </section>
         <section id="skills">
-          <h2>Skills</h2>
+          <h2>Solution</h2>
           {skillsArray}
-
+        </section>
+        <section id="stack">
+          <h2>Technical Stack</h2>
         </section>
       </div>
     );
@@ -76,7 +87,7 @@ class Skill extends Component {
   }
 }
 
-class Project extends Component {
+class Solution extends Component {
 
   render() {
     var imgStyle = {

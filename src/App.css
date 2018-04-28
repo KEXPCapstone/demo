@@ -65,7 +65,7 @@ nav i:hover, .arrowContainer i:hover{
   color: white;
 }
 
-#projects {
+#solution, #problem {
   background-color: #F4F4F4;
   padding: 10px;
 }
