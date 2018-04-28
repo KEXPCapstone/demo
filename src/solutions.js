@@ -41,7 +41,7 @@ export const solutions = [
   },
   {
    "title": "Related Releases",
-    "description": "",
+    "description": "Every album page will show 'related' albums which share at least one common feature, be it artist, label, country, etc.  This enables radio hosts to quickly find connections between albums without resorting to algorithmic suggestions.  This helps to preserve KEXP's committment to 'robot free radio' while levaraging the metadata stored in the library.",
     "imageUrl": require('./img/relatedReleases.png'),
     "skills": "",
     "githubLink": null,
