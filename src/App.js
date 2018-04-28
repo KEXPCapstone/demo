@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import * as ProjectsConst from './projects.js';
+import * as SolutionsConst from './solutions.js';
 import * as SkillsConst from './skills.js';
 
 class App extends Component {
 
   render() {
-    var projectsArray = ProjectsConst.projects.map(function(project, i) {
-      return <Project key={i} title={project.title} description={project.description} imageUrl={project.imageUrl} githubLink={project.githubLink} otherLink={project.otherLink}/>
+    var solutionsArray = SolutionsConst.solutions.map(function(solution, i) {
+      return <Solution key={i} title={solution.title} description={solution.description} imageUrl={solution.imageUrl} githubLink={solution.githubLink} otherLink={solution.otherLink}/>
     });
     var skillsArray = SkillsConst.skills.map(function(skill, i) {
       var isFontAwesome = false;
@@ -21,32 +21,38 @@ class App extends Component {
         <section id="about">
           <div>
             <header>
-              <h1>Adam Bourn</h1>
+              <h1>Shelves for KEXP</h1>
               <nav>
-                <a href="mailto:adam.john.bourn@gmail.com" aria-label="Send me an email!"><i className="fa fa-envelope" aria-hidden="true"></i></a>
-                <a href="https://docs.google.com/document/d/1LWOaOAZtURlvT2Xo24i5QTsVel-bcyxfhTd9Xj-ZaDU/edit?usp=sharing" aria-label="Resume" target="_blank"><i className="fa fa-file-text" aria-hidden="true"></i></a>
-                <a href="https://github.com/abourn" aria-label="Github Profile" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/abourn/" aria-label="Linkedin Profile" target="_blank"><i className="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                <a href="https://kexpshelves.com" aria-label="KEXP Shelves Website" target="_blank"><i className="fa fa-external-link fa-lg" aria-hidden="true"></i></a>
+                <a href="https://github.com/KEXPCapstone" aria-label="GitHub repo" target="_blank"><i className="fa fa-github fa-lg" aria-hidden="true"></i></a>
               </nav>
             </header>
           </div>
           <div className="aboutTextContainer">
-            <p>Senior | Informatics | University of Washington</p>
+            <p>Amplifying DJs’ ability to craft creative broadcasts</p>
           </div>
           <div className="arrowContainer">
-            <a href="#projects"><i className="fa fa-angle-down fa-3x faa-passing animated"></i></a>
+            <a href="#solution"><i className="fa fa-angle-down fa-3x faa-passing animated"></i></a>
           </div>
         </section>
-        <section id="projects">
-          <h2>Projects</h2>
+        <section id="problem">
+          <h2>Problem</h2>
           <div className="flex-container container">
-            {projectsArray}
+            <p>Over the past two years, KEXP has been in the process of digitizing its vast music library. The primary goal of this process has been to produce a more convenient and robust way for DJs at the station to interact with the music and associated metadata stored in KEXP’s collection. However, there are still areas throughout the programming process which could be improved through the use of the digitized library.</p>
+            <p>Furthermore, the current interface used to navigate KEXP's digital library is severed from the emotional context of the physical collection. For example, the digital library lacks the "notes" which radio hosts once used to communicate with other hosts about a particular album. </p>
+            <p>In addition, we see significant potential in the aggregation and curation of the music library as an information resource. A tool which enables radio hosts to easily plan their sets would harness the digital library in a new and valuable way that could extend beyond internal KEXP use, ultimately promoting KEXP's values of music discovery, community, and cultural enrichment. </p>
+            
+          </div>
+        </section>
+        <section id="solution">
+          <h2>Solution</h2>
+          <div className="flex-container container">
+          {solutionsArray}
           </div>
         </section>
         <section id="skills">
-          <h2>Skills</h2>
+          <h2>Built With</h2>
           {skillsArray}
-
         </section>
       </div>
     );
@@ -78,7 +84,7 @@ class Skill extends Component {
   }
 }
 
-class Project extends Component {
+class Solution extends Component {
 
   render() {
     var imgStyle = {
