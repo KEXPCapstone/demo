@@ -32,13 +32,13 @@ class App extends Component {
             <p>Amplifying DJs’ ability to craft creative broadcasts</p>
           </div>
           <div className="arrowContainer">
-            <a href="#projects"><i className="fa fa-angle-down fa-3x faa-passing animated"></i></a>
+            <a href="#solution"><i className="fa fa-angle-down fa-3x faa-passing animated"></i></a>
           </div>
         </section>
         <section id="problem">
           <h2>Problem</h2>
           <div className="flex-container container">
-            <p>Over the past one and a half years, KEXP has been in the process of digitizing its vast music library. The primary goal of this process has been to produce a more convenient and robust way for DJs at the station to interact with the music and associated metadata stored in KEXP’s collection. However, there are still areas throughout the programming process which could be improved through the use of the digitized library.</p>
+            <p>Over the past two years, KEXP has been in the process of digitizing its vast music library. The primary goal of this process has been to produce a more convenient and robust way for DJs at the station to interact with the music and associated metadata stored in KEXP’s collection. However, there are still areas throughout the programming process which could be improved through the use of the digitized library.</p>
             <p>Furthermore, the current interface used to navigate KEXP's digital library is severed from the emotional context of the physical collection. For example, the digital library lacks the "notes" which radio hosts once used to communicate with other hosts about a particular album. </p>
             <p>In addition, we see significant potential in the aggregation and curation of the music library as an information resource. A tool which enables radio hosts to easily plan their sets would harness the digital library in a new and valuable way that could extend beyond internal KEXP use, ultimately promoting KEXP's values of music discovery, community, and cultural enrichment. </p>
             
