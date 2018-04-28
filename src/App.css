@@ -1,0 +1,187 @@
+body {
+  font-family: 'Raleway';
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#about {
+  height:100vh;
+  background-image: url(./img/lake.JPG);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+h1, nav, nav a {
+  display: inline-flex;
+  margin: 7px;
+  margin-top: 10px;
+  color: white;
+}
+
+h1 {
+  float: left;
+  font-size: 1.8em;
+  margin-left: 2%;
+  font-weight: 200;
+  margin-top: 15px;
+  margin-right: 0;
+}
+
+nav {
+  float: right;
+  font-size: 1.2em;
+  margin-right: 2%;
+}
+
+nav i:hover, .arrowContainer i:hover{
+  color: #4c4c4c;
+  text-decoration: none;
+}
+
+.aboutTextContainer {
+  line-height: 130vh;
+  margin-left: 2%;
+  position: absolute;
+  font-size: 0.9em;
+}
+
+.aboutTextContainer p {
+  font-weight: 200;
+}
+
+.arrowContainer {
+  position: absolute;
+  bottom: 0;
+  margin-top: 51%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+#projects {
+  background-color: #F4F4F4;
+  padding: 10px;
+}
+
+h2 {
+  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.content {
+  background-color: white;
+  border-color: #dfdfdf;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 100%;
+}
+
+.image {
+  background-size: cover;
+  height: 150px;
+  background-position: top;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.textContent {
+  margin: 15px;
+}
+
+.textContent i:hover, .textContent i:focus {
+  color: #4c4c4c;;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+.flex-column {
+  display: flex;
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+
+.linkStyle {
+  color: black;
+  float: right;
+}
+
+h3 {
+  display: inline;
+  margin-bottom: 5px;
+}
+
+#skills {
+  text-align: center;
+  padding: 10px;
+  background-color: #F4F4F4;
+}
+
+#skills div {
+  display: inline-block;;
+}
+
+#skills i {
+  display: inline-block;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  font-size: 5em;
+}
+
+.skillIconDiv {
+  width: 135px;
+}
+
+.lightBlue {
+  color: #00A7F7;
+}
+
+@media screen and (min-width: 420px) {
+  .aboutTextContainer {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 630px) {
+  .aboutTextContainer {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 987px) {
+  .flex-column {
+    flex-basis: 50%;
+  }
+
+  h1, nav, nav a {
+  margin: 15px;
+  }
+
+  h1 {
+    font-size: 2.1em;
+  }
+
+  .aboutTextContainer {
+    font-size: 1.8em;
+  }
+
+  .content {
+    margin: 10px;
+    padding: 10px;
+  }
+}
