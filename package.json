@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "KEXP Shelves Demo",
   "author": "Adam Bourn",
-  "homepage": "https://abourn.github.io/portfolio",
+  "homepage": "https://KEXPCapstone.github.io/demo",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
