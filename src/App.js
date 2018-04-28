@@ -51,7 +51,7 @@ class App extends Component {
           </div>
         </section>
         <section id="skills">
-          <h2>Solution</h2>
+          <h2>Built With</h2>
           {skillsArray}
         </section>
         <section id="stack">
