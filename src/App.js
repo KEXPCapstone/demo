@@ -23,8 +23,8 @@ class App extends Component {
             <header>
               <h1>Shelves for KEXP</h1>
               <nav>
-                <a href="https://kexpshelves.com" aria-label="KEXP Shelves Website" target="_blank"><i className="fa fa-external-link" aria-hidden="true"></i></a>
-                <a href="https://github.com/KEXPCapstone" aria-label="GitHub repo" target="_blank"><i className="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://kexpshelves.com" aria-label="KEXP Shelves Website" target="_blank"><i className="fa fa-external-link fa-lg" aria-hidden="true"></i></a>
+                <a href="https://github.com/KEXPCapstone" aria-label="GitHub repo" target="_blank"><i className="fa fa-github fa-lg" aria-hidden="true"></i></a>
               </nav>
             </header>
           </div>
