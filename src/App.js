@@ -54,9 +54,6 @@ class App extends Component {
           <h2>Built With</h2>
           {skillsArray}
         </section>
-        <section id="stack">
-          <h2>Technical Stack</h2>
-        </section>
       </div>
     );
   }
