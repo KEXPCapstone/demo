@@ -1,7 +1,7 @@
 # Abstract
 
-John Laws, Monica Cao, Adam Bourn
-Informatics
+### John Laws, Monica Cao, Adam Bourn
+### Informatics
 
 As the world’s premier listener-supported radio station, 90.3 KEXP-FM enables on-air hosts to provide excellent curated programming for a global community. KEXP’s library of 70,000+ albums is an essential resource and archive of the station’s sonic identity, yet digital media tools have been ineffective at perseving this heritage. 
 
