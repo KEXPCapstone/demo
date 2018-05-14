@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.5a6347dd.css",
-  "main.css.map": "static/css/main.5a6347dd.css.map",
-  "main.js": "static/js/main.c146197a.js",
-  "main.js.map": "static/js/main.c146197a.js.map",
+  "main.css": "static/css/main.ad7713cc.css",
+  "main.css.map": "static/css/main.ad7713cc.css.map",
+  "main.js": "static/js/main.a625893f.js",
+  "main.js.map": "static/js/main.a625893f.js.map",
   "static/media/albumDetailBig.png": "static/media/albumDetailBig.09998c9e.png",
   "static/media/albumResults.png": "static/media/albumResults.4d5c128c.png",
   "static/media/explore.png": "static/media/explore.659af096.png",
@@ -10,5 +10,5 @@
   "static/media/notesFull.png": "static/media/notesFull.aed8e04b.png",
   "static/media/relatedReleases.png": "static/media/relatedReleases.7ac498e0.png",
   "static/media/shelfPreviews.png": "static/media/shelfPreviews.93eb90ea.png",
-  "static/media/shelvesKEXP.jpg": "static/media/shelvesKEXP.9839c637.jpg"
+  "static/media/shelvesKEXP.png": "static/media/shelvesKEXP.4c054f21.png"
 }
