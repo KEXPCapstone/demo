@@ -12,11 +12,20 @@ a:hover {
 
 #about {
   height:100vh;
-  background-image: url(./img/shelvesKEXP.png);
-  background-size: cover;
-  background-position: center;
-  color: white;
+  background: linear-gradient(to top, rgba(247, 179, 33, 0.562), #F7B221);
 }
+
+@media screen and (min-width: 500px) {
+  #about {
+    height:100vh;
+    background-image: url(./img/shelvesKEXP.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+}
+
+
 
 h1, nav, nav a {
   display: inline-flex;
