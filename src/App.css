@@ -10,6 +10,11 @@ a:hover {
   text-decoration: none;
 }
 
+#small-screen-header-img {
+  content:url(./img/title-no-logo.png);
+  max-width: 100%;
+}
+
 #about {
   height:100vh;
   background: linear-gradient(to top, rgba(247, 179, 33, 0.562), #F7B221);
@@ -22,6 +27,10 @@ a:hover {
     background-size: cover;
     background-position: center;
     color: white;
+  }
+
+  #small-screen-header-img {
+    content: none;
   }
 }
 

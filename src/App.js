@@ -27,7 +27,7 @@ class App extends Component {
               </nav>
             </header>
           </div>
-          
+          <img id="small-screen-header-img"/>
           <div className="arrowContainer">
             <a href="#solution"><i className="fa fa-angle-down fa-3x faa-passing animated"></i></a>
           </div>
