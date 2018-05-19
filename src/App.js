@@ -22,12 +22,14 @@ class App extends Component {
           <div>
             <header>
               <nav>
-                <a href="https://kexpshelves.com" aria-label="KEXP Shelves Website" target="_blank"><i className="fa fa-external-link fa-lg" aria-hidden="true"></i></a>
                 <a href="https://github.com/KEXPCapstone" aria-label="GitHub repo" target="_blank"><i className="fa fa-github fa-lg" aria-hidden="true"></i></a>
               </nav>
             </header>
           </div>
           <img id="small-screen-header-img"/>
+          <div className="aboutTextContainer">
+            <p>Amplifying DJs’ ability to craft creative broadcasts</p>
+          </div>
           <div className="arrowContainer">
             <a href="#solution"><i className="fa fa-angle-down fa-3x faa-passing animated"></i></a>
           </div>

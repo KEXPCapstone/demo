@@ -20,20 +20,21 @@ a:hover {
   background: linear-gradient(to top, rgba(247, 179, 33, 0.562), #F7B221);
 }
 
-@media screen and (min-width: 500px) {
-  #about {
-    height:100vh;
-    background-image: url(./img/shelvesKEXP.png);
-    background-size: cover;
-    background-position: center;
-    color: white;
-  }
-
-  #small-screen-header-img {
-    content: none;
-  }
+.aboutTextContainer {
+  line-height: 120vh;
+  width: 100%;
+  position: absolute;
+  font-size: 1.0em;
+  color: white;
+  align-content: center;
+  text-align: center;
 }
 
+.aboutTextContainer p {
+  font-weight: 200;
+  text-align: center;
+  color: white;
+}
 
 
 h1, nav, nav a {
@@ -62,17 +63,6 @@ nav {
 nav i:hover, .arrowContainer i:hover{
   color: #4c4c4c;
   text-decoration: none;
-}
-
-.aboutTextContainer {
-  line-height: 130vh;
-  margin-left: 2%;
-  position: absolute;
-  font-size: 0.9em;
-}
-
-.aboutTextContainer p {
-  font-weight: 200;
 }
 
 .arrowContainer {
@@ -175,6 +165,25 @@ h3 {
     font-size: 1.2em;
   }
 }
+
+@media screen and (min-width: 500px) {
+  #about {
+    height:100vh;
+    background-image: url(./img/shelvesKEXP.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  #small-screen-header-img {
+    content: none;
+  }
+
+  .aboutTextContainer, .aboutTextContainer p {
+    visibility: hidden;
+  } 
+}
+
 
 @media screen and (min-width: 630px) {
   .aboutTextContainer {
