@@ -160,6 +160,11 @@ h3 {
   color: #00A7F7;
 }
 
+
+header {
+  visibility: hidden;
+}
+
 @media screen and (min-width: 420px) {
   .aboutTextContainer {
     font-size: 1.2em;
@@ -182,6 +187,10 @@ h3 {
   .aboutTextContainer, .aboutTextContainer p {
     visibility: hidden;
   } 
+
+  header {
+    visibility: visible
+  }
 }
 
 
