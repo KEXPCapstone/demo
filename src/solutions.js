@@ -10,7 +10,7 @@ export const solutions = [
   {
    "title": "Searching",
     "description": "To help radio hosts quickly find a specific release in the library, we built a “universal” search function. This enables radio hosts to search for a release on multiple criteria without specifying a specific one, unlike KEXP's media asset management system.",
-    "imageUrl": require('./img/albumResults.png'),
+    "imageUrl": require('./img/results.png'),
     "skills": "",
     "githubLink": null,
     "otherLink": null 
