@@ -1,13 +1,13 @@
 {
   "main.css": "static/css/main.cfba5082.css",
   "main.css.map": "static/css/main.cfba5082.css.map",
-  "main.js": "static/js/main.dab867d6.js",
-  "main.js.map": "static/js/main.dab867d6.js.map",
-  "static/media/albumDetailBig.png": "static/media/albumDetailBig.09998c9e.png",
-  "static/media/albumResults.png": "static/media/albumResults.4d5c128c.png",
-  "static/media/explore.png": "static/media/explore.659af096.png",
+  "main.js": "static/js/main.5fbde68e.js",
+  "main.js.map": "static/js/main.5fbde68e.js.map",
+  "static/media/albumDetailBig.png": "static/media/albumDetailBig.02aac6f3.png",
+  "static/media/explore.png": "static/media/explore.cbc9bedd.png",
   "static/media/logo.svg": "static/media/logo.5d5d9eef.svg",
-  "static/media/notesFull.png": "static/media/notesFull.aed8e04b.png",
-  "static/media/shelfPreviews.png": "static/media/shelfPreviews.93eb90ea.png",
+  "static/media/notesFull.png": "static/media/notesFull.88ff2be5.png",
+  "static/media/results.png": "static/media/results.3b6b8dae.png",
+  "static/media/shelfPreviews.png": "static/media/shelfPreviews.633375f1.png",
   "static/media/shelvesKEXP.png": "static/media/shelvesKEXP.4c054f21.png"
 }
