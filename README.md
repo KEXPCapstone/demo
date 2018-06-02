@@ -14,8 +14,34 @@ Faced by a musical landscape dominated by algorithmic suggestion, ‘Shelves’ 
 ### Table of Contents 
   - All repos: https://githb.com/KEXPCapstone
   - Shelves API: https://github.com/KEXPCapstone/shelves-server
+    - Authentication
+    - Session Handling
+    - Database drivers
+    - Resource path definitions
+    - Microservice style architecture for supporting 'library' and 'shelves' interactions.
   - Shelves Frontend: https://github.com/KEXPCapstone/shelves
+    - 
   - Demo Page: https://kexpcapstone.github.io/demo/
   
 ### Technological Decisions
+
+#### Stack
+- Angular
+- Angular Material
+- Go
+- Redis
+- MongoDB
+- Docker
+- DigitalOcean
+
+For our frontend, we used Angular for its two way data binding and because we wanted to use Angular Material components.  These components helped us in styling the website in a manner that aligns well with KEXP's design language.
+
+We wrote our web server in Go because of team familiarity with both the language and the Go driver for MongoDB.  
+
+We chose MongoDB for our database because it made the most sense for us to store our data as documents/collections and because of team familiarity.  
+
+
+### Contact
+kexpcapstone@gmail.com
+
   
