@@ -12,9 +12,10 @@ Faced by a musical landscape dominated by algorithmic suggestion, ‘Shelves’ 
 
 
 ### Table of Contents 
-  All repos: https://githb.com/KEXPCapstone
-  Shelves API: https://github.com/KEXPCapstone/shelves-server
-  Shelves Frontend: https://github.com/KEXPCapstone/shelves
+  - All repos: https://githb.com/KEXPCapstone
+  - Shelves API: https://github.com/KEXPCapstone/shelves-server
+  - Shelves Frontend: https://github.com/KEXPCapstone/shelves
+  - Demo Page: https://kexpcapstone.github.io/demo/
   
 ### Technological Decisions
   
